@@ -1,4 +1,3 @@
-
 a
 {
  color: black;
@@ -9,4 +8,12 @@ a
 progress 
 {
     width: 200px;
+}
+
+hr
+{
+    color: grey;
+    height: 5px;
+    background-color: gray;
+    border-radius: 20px;
 }
