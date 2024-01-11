@@ -15,14 +15,25 @@
     color: #fafafa;
 }
 
+
+#CV {
+    position: relative;
+    align-items: center;
+    width: 50%;
+    margin: 20px 0px 0px;
+  
+    font-size: 1.3rem;
+    left: 25%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode",Verdana, sans-serif;
+  }
+
+
+
 table
 {
     padding: 10px 0px 10px;
 }
-
-
-
-
 
 
 a
