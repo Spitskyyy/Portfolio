@@ -10,6 +10,8 @@
     transition: background-color 0.3s, color 0.3s;
 }
 
+
+/* --------CV-------- */
 #CV :hover {
     background-color: #fa4454;
     color: #fafafa;
@@ -33,6 +35,7 @@
     align-items: center;
     width: 50%;
     margin: 20px 0px 0px;
+
     left: 25%;
 
   }
