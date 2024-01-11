@@ -28,6 +28,15 @@
       "Lucida Sans Unicode",Verdana, sans-serif;
   }
 
+  #CV a {
+    position: relative;
+    align-items: center;
+    width: 50%;
+    margin: 20px 0px 0px;
+    left: 25%;
+
+  }
+
 
 
 table
