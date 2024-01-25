@@ -10,5 +10,5 @@ git clone https://github.com/Spitskyyy/Portfolio.git
 ## Pour le voir
 
 ```sh
-https://spitskyyy.github.io/Git/
+https://spitskyyy.github.io/Portfolio/
 ```
