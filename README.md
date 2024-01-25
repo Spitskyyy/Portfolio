@@ -4,7 +4,7 @@
 ## Pour le cloner 
 
 ```sh
-git clone git@github.com:Spitskyyy/Git.git
+git clone https://github.com/Spitskyyy/Portfolio.git
 ```
 
 ## Pour le voir
