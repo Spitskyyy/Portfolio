@@ -1,3 +1,4 @@
+/* --------CV-------- */
 #CV a
 {
 
@@ -10,12 +11,11 @@
     transition: background-color 0.3s, color 0.3s;
 }
 
-
-/* --------CV-------- */
 #CV :hover {
     background-color: #fa4454;
     color: #fafafa;
 }
+
 #CV {
     position: relative;
     align-items: center;
@@ -27,6 +27,7 @@
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode",Verdana, sans-serif;
   }
+
   #CV a {
     position: relative;
     align-items: center;
@@ -36,8 +37,8 @@
     left: 25%;
 
   }
-
-
+  
+/* ------------------ */
 
 table
 {
@@ -60,10 +61,15 @@ hr
     border-radius: 20px;
 }
 
+
+
+
+/* -------- Menu déroulant -------- */
 .dropdown {
   position: relative;
   display: inline-block;
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -72,12 +78,16 @@ hr
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
+
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* -------------------------------- */
