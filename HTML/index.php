@@ -4,6 +4,41 @@
     <title>Portfolio</title>
 </head>
 <body>
+
+    <?php
+
+
+    // $xml = simplexml_load_file('https://javascript.developpez.com/index/rss');
+    $xml = simplexml_load_file('https://www.journalduhacker.net/rss');
+    $xml = simplexml_load_file('https://news.humancoders.com/t/java/items/feed');
+    
+    foreach ($xml -> channel -> item as $item) {
+    
+        print("<a href='{$item->link}'>'{$item->title}</a><br/>");
+        print("{$item->pubDate}");
+        print("{$item->description}");
+        print("{$item->date}");
+        print("{$item->enclosure}");
+    
+        // $enclosureUrl = $item->enclosure[''];
+        // print('<br/><br/>enclosureUrl = "'. $enclosureUrl .'"<br/><br/>');
+    
+    
+    }
+    
+    ?>
+
+
+
+
+
+
+
+
+
+
+
+
     <table xborder="" width="100%">
 
         <tr>
