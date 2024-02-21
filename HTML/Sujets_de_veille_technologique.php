@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="../Style/Style_Sujets_de_veille_technologique.css">
+<meta charset="UTF-8">
 <head>
     <title>Portfolio</title>
 </head>
