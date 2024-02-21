@@ -12,9 +12,9 @@
       <div class="dropdown">
       <p>Compétences</p>
       <div class="dropdown-content">
-        <a href="/HTML/Slam.html">Développement</a>
-        <a href="/HTML/Sisr.html">Réseaux</a>
-        <a href="/HTML/Cyber.html">Cybersécurité</a>
+        <a href="Slam.html">Développement</a>
+        <a href="Sisr.html">Réseaux</a>
+        <a href="Cyber.html">Cybersécurité</a>
         </a>
       </div>
     </div>
