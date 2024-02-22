@@ -39,29 +39,9 @@
 </table>
 </header>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <body>
 
     <?php
-
 
     // $xml = simplexml_load_file('https://javascript.developpez.com/index/rss');
     $xml = simplexml_load_file('https://www.journalduhacker.net/rss');
@@ -73,7 +53,7 @@
         print("{$item->pubDate}");
         print("{$item->description}");
         print("{$item->date}");
-        print("{$item->enclosure}");
+        
     
         // $enclosureUrl = $item->enclosure[''];
         // print('<br/><br/>enclosureUrl = "'. $enclosureUrl .'"<br/><br/>');
@@ -82,15 +62,6 @@
     }
     
     ?>
-
-
-
-
-
-
-
-
-
 
 </body>
 </table>
