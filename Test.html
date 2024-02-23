@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation</title>
+</head>
+<body>
+   <img src="/Fichier/Documents/Emeric Grall.jpg" width="90%" height="100%">
+
+</body>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+    <label for="menu-toggle" class="menu-toggle-button">
+        <span class="menu-toggle-bar">ff</span>
+        <span class="menu-toggle-bar">hh</span>
+        <span class="menu-toggle-bar">gg</span>
+    </label>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Accueil</a>ff</li>
+            <li><a href="#">À propos</a>ff</li>
+            <li><a href="#">Services</a>ff</li>
+            <li><a href="#">Contact</a><ff/li>
+        </ul>
+    </nav>
+
+</body>
+</html>
+
+
+
+
+
+
+
+<style>
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu-toggle-checkbox {
+    display: none;
+}
+
+.menu-toggle-button {
+    cursor: pointer;
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.menu-toggle-bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px auto;
+    transition: background-color 0.3s ease;
+}
+
+.menu-toggle-checkbox:checked + .menu-toggle-button .menu-toggle-bar:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+}
+
+.menu-toggle-checkbox:checked + .menu-toggle-button .menu-toggle-bar:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle-checkbox:checked + .menu-toggle-button .menu-toggle-bar:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding-top: 80px;
+    transition: right 0.3s ease;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    padding: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.menu-toggle-checkbox:checked ~ .menu {
+    right: 0;
+}
+
+</style>
+</html>
