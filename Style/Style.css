@@ -54,7 +54,7 @@ a
 }
 
 hr
-{
+{ 
     color: grey;
     height: 5px;
     background-color: gray;
@@ -100,4 +100,15 @@ img
   padding: 0;
   margin: 0;
 
+}
+
+
+
+
+footer {
+  color: #000000;
+  padding: 5px;
+  bottom: 0;
+  width: 100%;
+  
 }
