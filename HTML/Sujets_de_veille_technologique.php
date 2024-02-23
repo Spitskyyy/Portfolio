@@ -42,22 +42,21 @@
 <body>
 
 
-<p> Pour ce Sujets de veille technologique j'ai choisi de prendre comme sujet le Front-End plus particulierement le JavaScript</p>
-
-
+<p align=center> Pour premiere sujet de veille technologique, j'ai choisi l'intelligence artificielle.</p>
+<hr>
     <?php
 
     //$xml = simplexml_load_file('https://javascript.developpez.com/index/rss');
-    $xml = simplexml_load_file('https://www.journalduhacker.net/rss');
-    $xml = simplexml_load_file('https://news.humancoders.com/t/java/items/feed');
+    //$xml = simplexml_load_file('https://www.journalduhacker.net/rss');
+    //$xml = simplexml_load_file('https://news.humancoders.com/t/java/items/feed');
+    $xml = simplexml_load_file('https://intelligence-artificielle.developpez.com/index/rss');
     
     foreach ($xml -> channel -> item as $item) {
     
         print("<a href='{$item->link}'>'{$item->title}</a><br/>");
         echo '<hr>';
-        print("{$item->pubDate}");
-        print("{$item->description}");
-        print("{$item->date}");
+        print("{$item->pubDate} </a><br/>");
+        print ("{$item->enclosure}");
         
     
         // $enclosureUrl = $item->enclosure[''];
