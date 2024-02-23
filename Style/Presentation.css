@@ -4,13 +4,6 @@ a
  text-decoration: none;
 }
 
-/* -------- Progress -------- */
-progress 
-{
-    width: 200px;
-}
-/* -------- ----------------- */
-
 hr
 {
     color: grey;

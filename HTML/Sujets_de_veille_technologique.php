@@ -3,39 +3,71 @@
 <meta charset="UTF-8">
 <head>
     <title>Portfolio</title>
-</head>
-<header>
-<h1 align="center">Sujets-de-veille-technologique</h1>
-<hr>
-<table xborder="" width="100%">
-  <tr>
-    <td width="33%" align="center">
-      <div class="dropdown">
-      <p>Compétences</p>
-      <div class="dropdown-content">
-        <a href="Slam.html">Développement</a>
-        <a href="Sisr.html">Réseaux</a>
-        <a href="Cyber.html">Cybersécurité</a>
-        </a>
-      </div>
-    </div>
-  </td>
-  <td width="33%" align="center">
-  <a href="Certification.html">Certification</a>
+
+
+
+    <table xborder="" width="100%">
+
+<tr>
+
+  <td width="25%" align="center">
+    <div class="dropdown">
+      <a href="../index.html">Accueil</a>
     </a>
   </div>
 </div> 
   </td>
-  
-  <td width="34%" align="center">
-    <a href="../index.html">Accueil</a>
-    </a>
+
+
+  <td width="25%" align="center">
+    <div class="dropdown">
+    <p>Présentation</p>
+    <div class="dropdown-content">
+      <a href="Présentation.html">Ma Présentation</a>
+      <a href="Présentation_BTS_SIO.html">Présentation BTS SIO</a>
+      <a href="Présentation_Projets_Réalisés.html">Présentation des projets réalisés</a>
+      </a>    
+    </div>
+
+  <td width="25%" align="center">
+    <div class="dropdown">
+    <p>Compétences</p>
+    <div class="dropdown-content">
+      <a href="Slam.html">Développement</a>
+      <a href="Sisr.html">Réseaux</a>
+      <a href="Cyber.html">Cybersécurite</a>
+      </a>
+    </div>
   </div>
+</td>
+
+<td width="25%" align="center">
+  <div class="dropdown">
+    <p>Sujets de veille technologique</p>
+    <div class="dropdown-content">
+      <a href="Sujets_de_veille_technologique.php">Les IA </a>
+  </a>
+
+
 </div>  
-  </td>
-  </tr>
+</td>
+</tr>
 </table>
-</header>
+
+
+
+
+
+
+
+
+
+
+</head>
+<header>
+<h1 align="center">Sujets-de-veille-technologique</h1>
+<hr>
+
 
 <body>
 
