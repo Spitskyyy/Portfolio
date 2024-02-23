@@ -21,9 +21,7 @@
     </div>
   </td>
   <td width="33%" align="center">
-    <div class="dropdown">
-      <p>Certification</p>
-      <div class="dropdown-content">
+  <a href="Certification.html">Certification</a>
     </a>
   </div>
 </div> 
