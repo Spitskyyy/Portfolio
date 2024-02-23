@@ -41,6 +41,10 @@
 
 <body>
 
+
+<p> Pour ce Sujets de veille technologique j'ai choisi de prendre comme sujet le Front-End plus particulierement le JavaScript</p>
+
+
     <?php
 
     $xml = simplexml_load_file('https://javascript.developpez.com/index/rss');
