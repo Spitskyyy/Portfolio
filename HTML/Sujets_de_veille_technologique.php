@@ -8,51 +8,51 @@
 
     <table xborder="" width="100%">
 
-<tr>
-
-  <td width="25%" align="center">
-    <div class="dropdown">
-      <a href="../index.html">Accueil</a>
-    </a>
-  </div>
-</div> 
-  </td>
-
-
-  <td width="25%" align="center">
-    <div class="dropdown">
-    <p>Présentation</p>
-    <div class="dropdown-content">
-      <a href="Présentation.html">Ma Présentation</a>
-      <a href="Présentation_BTS_SIO.html">Présentation BTS SIO</a>
-      <a href="Présentation_Projets_Réalisés.html">Présentation des projets réalisés</a>
-      </a>    
-    </div>
-
-  <td width="25%" align="center">
-    <div class="dropdown">
-    <p>Compétences</p>
-    <div class="dropdown-content">
-      <a href="Slam.html">Développement</a>
-      <a href="Sisr.html">Réseaux</a>
-      <a href="Cyber.html">Cybersécurite</a>
-      </a>
-    </div>
-  </div>
-</td>
-
-<td width="25%" align="center">
-  <div class="dropdown">
-    <p>Sujets de veille technologique</p>
-    <div class="dropdown-content">
-      <a href="Sujets_de_veille_technologique.php">Les IA </a>
-  </a>
-
-
-</div>  
-</td>
-</tr>
-</table>
+        <tr>
+  
+         <!-- <td width="25%" align="center">
+            <div class="dropdown">
+              <a href="../index.html">Accueil</a>
+            </a>
+          </div>
+        </div> 
+          </td>-->
+  
+  
+          <td width="25%" align="center">
+            <div class="dropdown">
+            <p>Présentation</p>
+            <div class="dropdown-content">
+              <a href="index.html">Ma Présentation</a>
+              <!--   <a href="/HTML/Presentation_BTS_SIO.html">Présentation BTS SIO</a>
+            <a href="/HTML/Presentation_Projets_Realises.html">Présentation des projets réalisés</a>-->
+              </a>    
+            </div>
+  
+          <td width="25%" align="center">
+            <div class="dropdown">
+            <p>Compétences</p>
+            <div class="dropdown-content">
+              <a href="HTML/Slam.html">Développement</a>
+              <a href="HTML/Sisr.html">Réseaux</a>
+              <a href="HTML/Cyber.html">Cybersécurite</a>
+              </a>
+            </div>
+          </div>
+        </td>
+  
+        <td width="25%" align="center">
+          <div class="dropdown">
+            <p>Sujets de veille technologique</p>
+            <div class="dropdown-content">
+              <a href="HTML/Sujets_de_veille_technologique.php">Les IA </a>
+          </a>
+  
+        
+      </div>  
+        </td>
+        </tr>
+      </table>
 
 
 
