@@ -40,3 +40,44 @@ hr
   }
   
   /* -------------------------------- */
+
+
+
+  #CV a
+{
+
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 15px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#CV :hover {
+    background-color: #fa4454;
+    color: #fafafa;
+}
+
+#CV {
+    position: relative;
+    align-items: center;
+    width: 50%;
+    margin: 20px 0px 0px;
+  
+    font-size: 1.3rem;
+    left: 25%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode",Verdana, sans-serif;
+  }
+
+  #CV a {
+    position: relative;
+    align-items: center;
+    width: 50%;
+    margin: 20px 0px 0px;
+
+    left: 25%;
+
+  }
